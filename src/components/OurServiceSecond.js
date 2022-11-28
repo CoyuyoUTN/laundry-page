@@ -1,10 +1,10 @@
 import Table from "react-bootstrap/Table";
-import BannerService from "./BannerService";
+import BannerPlancha from "./BannerPlancha";
 
 const OurService = ({ products }) => {
   return (
     <div className="ourService-container">
-      <BannerService />
+      <BannerPlancha />
       <div className="table-price-container">
         <Table
           striped

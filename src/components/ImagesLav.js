@@ -3,7 +3,7 @@ import image2 from "../img/img2.jpeg";
 import image3 from "../img/img3.jpeg";
 import image4 from "../img/img4.jpeg";
 import image5 from "../img/img5.jpeg";
-import image6 from "../img/img6.jpeg";
+import image6 from "../img/osito.jpeg";
 const ImagesLav = () => {
   return (
     <div className="container-imgs">

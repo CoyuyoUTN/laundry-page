@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { db } from "../firebase/firebase";
 import { collection, getDocs } from "firebase/firestore";
-import OurService from "./OurService";
+import OurServiceSecond from "./OurServiceSecond";
 
 const DaoProducts = () => {
   const [products, setProducts] = useState([]);
-  const productsCollection = collection(db, "Prendas");
+  const productsCollection = collection(db, "Plancha");
 
   const getProducts = async () => {
     const dataProducts = await getDocs(productsCollection);
@@ -23,7 +23,7 @@ const DaoProducts = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <OurService products={products} />;
+  return <OurServiceSecond products={products} />;
 };
 
 export default DaoProducts;

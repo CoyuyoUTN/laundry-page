@@ -1,0 +1,98 @@
+:root {
+    --Background: #004643;
+    --Headline: #fffffe;
+    --Paragraph: #000000;
+    --Button: #f9bc60;
+    --ButtonHover: #e9ad2e;
+    --text: #001e1d;
+    --Stroke: #001e1d;
+    --Main: #e8e4e6;
+    --Highlight: #f9bc60;
+    --Secondary: #abd1c6;
+    --Tertiary: #e16162;
+    --FontFamily: 'Josefin Sans', sans-serif;
+}
+.form { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--FontFamily);
+}
+.form__title__contact {
+    color: var(--text);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.form__container {
+    background: var(--Paragraph);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 20px;
+    width: 60%;
+}
+.form__input-section {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 5px;
+}
+.form__input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: var(--Main);
+}
+.form__textarea {
+    margin: 10px;
+    width: 99%;
+    outline: none;
+    border: none;
+    background-color: var(--Main);
+}
+.form__textarea-section {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 100%;
+}
+.form__input-title {
+    color: var(--Text);
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0 10px 0 3px;
+}
+.form__input-error {
+    color: var(--Tertiary);
+    font-size: 1rem;
+    margin-left: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+.button__send {
+    width: 97.5%;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 25px;
+    margin: 10px;
+    background-color: var(--Button);
+    color: var(--text);
+    transition: 0.3s;
+}
+.button__send:hover {
+    background-color: var(--ButtonHover);
+    color: var(--Tertiary);
+}
+@media (max-width: 590px) {
+    .form__title__contact {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .form__container {
+        width: 283px;
+    }
+}

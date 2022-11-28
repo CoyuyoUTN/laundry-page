@@ -8,6 +8,8 @@ import AboutUs from "./components/AboutUs";
 import ImagesLav from "./components/ImagesLav";
 import NavContainerImg from "./components/NavContainerImg";
 import DaoProducts from "./components/DaoProducts";
+import DaoPlancha from "./components/DaoPlancha";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <NavDelivery />
         <NavContainerImg />
         <DaoProducts />
+        <DaoPlancha />
+        <Contact />
       </div>
     </div>
   );
