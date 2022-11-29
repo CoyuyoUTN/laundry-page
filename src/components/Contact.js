@@ -49,26 +49,25 @@ const Contact = () => {
   return (
     <section className="form">
       <form className="form__container" onSubmit={handleSubmit(onSubmit)}>
-        <p className="form__title__contact">Complete the following form.</p>
         <div className="form__input-section">
           <label>
-            <h2 className="form__input-title">Name:</h2>
+            <h2 className="form__input-title">Nombre:</h2>
           </label>
           <input
             name="name"
             id="name"
             className="form__input"
             type="text"
-            placeholder="Max 30 letters"
+            placeholder="Pablo Perez"
             autoComplete="off"
             {...register("name", {
               required: {
                 value: true,
-                message: "The name input is required",
+                message: "El nombre es requerido",
               },
               maxLength: {
                 value: 30,
-                message: "Enter maximum 30 letters",
+                message: "Ingresa un máximo de 30 caracteres",
               },
             })}
           />
@@ -91,11 +90,11 @@ const Contact = () => {
             {...register("mail", {
               required: {
                 value: true,
-                message: "The email input is required",
+                message: "El mail es requerido",
               },
               pattern: {
                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
-                message: "The format is not correct",
+                message: "El formato no es correcto",
               },
             })}
           />
@@ -110,9 +109,9 @@ const Contact = () => {
             id="formMensaggeId"
             className="form__textarea"
             rows="7"
-            placeholder="Enter your message"
+            placeholder="Ingresa el mensaje"
             {...register("message", {
-              required: "The message textarea is required",
+              required: "El mensaje es requerido",
             })}
           />
         </div>

@@ -9,7 +9,9 @@ import ImagesLav from "./components/ImagesLav";
 import NavContainerImg from "./components/NavContainerImg";
 import DaoProducts from "./components/DaoProducts";
 import DaoPlancha from "./components/DaoPlancha";
+import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import NavContact from "./components/NavContact";
 
 function App() {
   return (
@@ -22,9 +24,9 @@ function App() {
         <ImagesLav />
         <NavDelivery />
         <NavContainerImg />
-        <DaoProducts />
-        <DaoPlancha />
+        <NavContact />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
