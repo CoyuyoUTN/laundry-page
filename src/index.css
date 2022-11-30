@@ -50,9 +50,9 @@ table {
   justify-content: center;
   font-family: 'Fredoka One', cursive;
   box-sizing: border-box;
-  background: url(https://img.freepik.com/vector-premium/burbujas-champu-sobre-fondo-degradado-burbujas-agua-realistas-3d-enfriar-espuma-liquida-burbujas-champu-flyer-cosmetico-horizontal-e-invitar-espuma-jabon-limpieza-bano-ducha_121461-1757.jpg) no-repeat;
+  /*background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/gray-background-image-with-bubbles-mutlu-kurtbas.jpg) no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
 }
 .container-content-page{
   padding-top: 60px;
@@ -222,6 +222,7 @@ table {
 	height: 600px;
 	width: 500px;
 	margin: 20px;
+	border-radius: 10%;
 }
 
 
@@ -345,20 +346,21 @@ table{
   @media only screen and (max-width: 576px){
 	.about-container p{
 		margin-top: -30px;
-		font-size: 1.4rem;
+		font-size: 1.9rem;
 	}
 	.slider{
+		text-align: center;
 		margin-top: 150px;
 	}
 	.slider-title{
-		  font-size: 3rem;	
+		  font-size: 5rem;	
 	}
 	.slider-title-1{
-		  font-size: 2.4rem;
+		  font-size: 4.8rem;
 	}
 	
 	.slider-text{
-		  font-size: 2rem;
+		  font-size: 3.5rem;
 	}
 
 	.container-imgs img{
@@ -368,11 +370,11 @@ table{
 
 	.container-imgs img:first-child{
 		height: 230px;
-		width: 230px;
+		width: 300px;
 	}
 
 	.about-container-title{
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 	.nav-delivery-container{
 	margin-top: 50px;

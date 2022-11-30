@@ -24,6 +24,8 @@ function App() {
         <ImagesLav />
         <NavDelivery />
         <NavContainerImg />
+        <DaoProducts />
+        <DaoPlancha />
         <NavContact />
         <Contact />
         <Footer />

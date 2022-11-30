@@ -6,7 +6,7 @@ const BannerMain = () => {
         <span className="slider-title">AGÜITAS</span>
       </h1>
       <p className="slider-text">
-        Las burbujas mas elegidas de la ciudad durante más de 25 años!
+        Las burbujas mas elegidas de la ciudad durante 25 años!
       </p>
     </div>
   );
