@@ -1,4 +1,5 @@
-import Contact from "./Contact";
+import imglocation from "../img/ubicacion.jpg";
+import { Image } from "antd";
 const Footer = () => {
   return (
     <footer class="footer">
@@ -11,30 +12,29 @@ const Footer = () => {
       <ul class="menu">
         <li class="menu__item">
           <a class="menu__link" href="#">
-            Home
+            Inicio
           </a>
         </li>
         <li class="menu__item">
           <a class="menu__link" href="#">
-            About
+            Sobre nosotros
           </a>
         </li>
         <li class="menu__item">
           <a class="menu__link" href="#">
-            Services
+            Servicios
           </a>
         </li>
         <li class="menu__item">
           <a class="menu__link" href="#">
-            Team
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">
-            Contact
+            Contacto
           </a>
         </li>
       </ul>
+      <div className="footerUbication-container">
+        <p>Ubicación</p>
+        <Image width={300} src={imglocation} />
+      </div>
     </footer>
   );
 };
