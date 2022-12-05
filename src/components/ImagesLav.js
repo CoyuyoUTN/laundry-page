@@ -7,18 +7,60 @@ import image6 from "../img/osito.jpeg";
 import image7 from "../img/acolchadoM.jpeg";
 import image8 from "../img/LavadorasM.jpeg";
 import image10 from "../img/secadoraM.jpeg";
+import image11 from "../img/secadoraMM.jpeg";
 const ImagesLav = () => {
   return (
     <div className="container-imgs">
-      <img src={image7} alt="" />
-      <img src={image8} alt="" />
-      <img src={image10} alt="" />
-      <img src={image1} alt="" />
-      <img src={image2} alt="" />
-      <img src={image3} alt="" />
-      <img src={image4} alt="" />
-      <img src={image5} alt="" />
-      <img src={image6} alt="" />
+      <img
+        src={image7}
+        alt=""
+        className="wow animate__animated animate__fadeIn"
+      />
+      <img
+        src={image8}
+        alt=""
+        className="wow animate__animated animate__fadeIn"
+      />
+      <img
+        src={image10}
+        alt=""
+        className="wow animate__animated animate__fadeIn"
+      />
+      <img
+        src={image1}
+        alt=""
+        className="wow animate__animated animate__fadeIn"
+      />
+      <img
+        src={image2}
+        alt=""
+        className="wow animate__animated animate__fadeIn"
+      />
+      <img
+        src={image3}
+        alt=""
+        className="wow animate__animated animate__fadeIn"
+      />
+      <img
+        src={image4}
+        alt=""
+        className="wow animate__animated animate__fadeIn"
+      />
+      <img
+        src={image5}
+        alt=""
+        className="wow animate__animated animate__fadeIn"
+      />
+      <img
+        src={image6}
+        alt=""
+        className="wow animate__animated animate__fadeIn"
+      />
+      <img
+        src={image11}
+        alt=""
+        className="wow animate__animated animate__fadeIn"
+      />
     </div>
   );
 };

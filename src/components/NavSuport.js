@@ -9,12 +9,18 @@ const NavSuport = () => {
     <Navbar bg="dark" variant="dark" fixed="top" expand="sm">
       <Container className="container-navSuport">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Brand href="#home" className="firstNav-content">
+        <Navbar.Brand
+          href="#home"
+          className="firstNav-content wow animate__animated animate__bounceInLeft"
+        >
           <img alt="" src={lavIcon} className="d-inline-block align-top" />{" "}
           <p>LAVADERO AGÜITAS</p>
         </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Navbar.Brand href="#action8" className="navBar-data">
+          <Navbar.Brand
+            href="#action8"
+            className="navBar-data wow animate__animated animate__bounceInRight"
+          >
             <p>
               <BiDirections /> Direccion: Rawson 2191
             </p>

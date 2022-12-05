@@ -17,6 +17,7 @@ const OurService = ({ products }) => {
                 width: 540,
               }}
               cover={<img alt="" src={product.img} style={{ height: 540 }} />}
+              className="wow animate__animated animate__fadeIn"
             >
               <Meta title={product.nombre} style={{ fontSize: 25 }} />
             </Card>
