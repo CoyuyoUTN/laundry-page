@@ -591,6 +591,9 @@ table{
 			
 			
 		}
+		.menu{
+			gap: 15px;
+		}
 	}
 
 
@@ -672,5 +675,11 @@ table{
 .sup-nav{
 	margin-top: 130px;
 	font-size: 25px;
+}
+.horary-container{
+	width: 100%;
+}
+.ubication-container{
+	width: 100%;
 }
   }
