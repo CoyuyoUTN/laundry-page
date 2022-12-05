@@ -1,6 +1,6 @@
 const NavContact = () => {
   return (
-    <div className="nav-delivery-container">
+    <div id="contact" className="nav-delivery-container">
       <p>Contactenos</p>
     </div>
   );

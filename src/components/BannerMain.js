@@ -1,6 +1,6 @@
 const BannerMain = () => {
   return (
-    <div className="slider">
+    <div className="slider" id="home">
       <h1 className="container-slider-title">
         <span className="slider-title-1">LAVADERO</span>
         <span className="slider-title">AGÜITAS</span>

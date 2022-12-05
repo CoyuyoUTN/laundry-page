@@ -1,6 +1,9 @@
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import lavIcon from "../img/lavIconP.png";
+import { BsWhatsapp } from "react-icons/bs";
+import { BiDirections } from "react-icons/bi";
+
 const NavSuport = () => {
   return (
     <Navbar bg="dark" variant="dark" fixed="top" expand="sm">
@@ -12,8 +15,12 @@ const NavSuport = () => {
         </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Navbar.Brand href="#action8" className="navBar-data">
-            <p>Direccion: Rawson 2191</p>
-            <p>Tel: 223-5492929</p>
+            <p>
+              <BiDirections /> Direccion: Rawson 2191
+            </p>
+            <p>
+              <BsWhatsapp /> Tel: 223-5492929
+            </p>
           </Navbar.Brand>
         </Navbar.Collapse>
       </Container>

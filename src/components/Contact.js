@@ -125,7 +125,7 @@ const Contact = () => {
           id="button"
           value="Send Email"
         >
-          send
+          Enviar
         </button>
       </form>
     </section>

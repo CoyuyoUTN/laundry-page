@@ -15,10 +15,10 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-nav">
             <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#link">Nosotros</Nav.Link>
-            <Nav.Link href="#link">Delivery</Nav.Link>
-            <Nav.Link href="#link">Servicios</Nav.Link>
-            <Nav.Link href="#link">Contacto</Nav.Link>
+            <Nav.Link href="#aboutus">Nosotros</Nav.Link>
+            <Nav.Link href="#delivery">Delivery</Nav.Link>
+            <Nav.Link href="#service">Servicios</Nav.Link>
+            <Nav.Link href="#contact">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
