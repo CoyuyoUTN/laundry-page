@@ -4,7 +4,7 @@ import { BsCalendarCheck } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { BiDirections } from "react-icons/bi";
 
-const Footer = () => {
+const FooterServices = () => {
   return (
     <footer class="footer">
       <div class="waves">
@@ -13,33 +13,6 @@ const Footer = () => {
         <div class="wave" id="wave3"></div>
         <div class="wave" id="wave4"></div>
       </div>
-      <ul class="menu">
-        <li class="menu__item">
-          <a class="menu__link" href="home">
-            Inicio
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#aboutus">
-            Sobre nosotros
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#service">
-            Servicios
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#contact">
-            Contacto
-          </a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#delivery">
-            Delivery
-          </a>
-        </li>
-      </ul>
       <div className="footerUbication-container">
         <div className="ubication-container">
           <p>
@@ -79,4 +52,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterServices;

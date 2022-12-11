@@ -1,4 +1,3 @@
-import Table from "react-bootstrap/Table";
 import BannerService from "./BannerService";
 import { Card } from "antd";
 

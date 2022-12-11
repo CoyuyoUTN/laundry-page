@@ -1,36 +1,22 @@
-import NavBar from "./components/NavBar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavSuport from "./components/NavSuport";
 import "./index.css";
-import BannerMain from "./components/BannerMain";
-import NavDelivery from "./components/NavDelivery";
-import AboutUs from "./components/AboutUs";
-import ImagesLav from "./components/ImagesLav";
-import NavContainerImg from "./components/NavContainerImg";
-import DaoProducts from "./components/DaoProducts";
-import DaoPlancha from "./components/DaoPlancha";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
-import NavContact from "./components/NavContact";
+import Main from "./components/Main";
+import Services from "./components/Services";
 
 function App() {
   return (
-    <div className="App">
-      <NavSuport />
-      <div className="container-content-page">
-        <NavBar />
-        <BannerMain />
-        <AboutUs />
-        <ImagesLav />
-        <NavDelivery />
-        <NavContainerImg />
-        <DaoProducts />
-        <DaoPlancha />
-        <NavContact />
-        <Contact />
-        <Footer />
+    <BrowserRouter>
+      <div className="App">
+        <NavSuport />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/servicios" element={<Services />} />
+        </Routes>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
