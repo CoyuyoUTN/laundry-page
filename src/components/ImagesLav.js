@@ -6,7 +6,6 @@ import image5 from "../img/img5.jpeg";
 import image6 from "../img/osito.jpeg";
 import image7 from "../img/acolchadoM.jpeg";
 import image8 from "../img/LavadorasM.jpeg";
-import image10 from "../img/secadoraM.jpeg";
 import image11 from "../img/secadoraMM.jpeg";
 const ImagesLav = () => {
   return (
@@ -18,11 +17,6 @@ const ImagesLav = () => {
       />
       <img
         src={image8}
-        alt=""
-        className="wow animate__animated animate__fadeIn"
-      />
-      <img
-        src={image10}
         alt=""
         className="wow animate__animated animate__fadeIn"
       />

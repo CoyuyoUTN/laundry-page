@@ -7,7 +7,7 @@ const NavContainerImg = () => {
   return (
     <div>
       <div className="carousel-subtitle">
-        <p>No nos traigas tu ropa, nosotros vamos por ella</p>
+        <p>No nos traigas tu ropa, nosotros vamos por ella!</p>
       </div>
       <div className="img-delivery-container">
         <Carousel autoplay>

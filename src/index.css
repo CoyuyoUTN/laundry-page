@@ -50,6 +50,7 @@ table {
   justify-content: center;
   font-family: 'Fredoka One', cursive;
   box-sizing: border-box;
+  caret-color: transparent;
 }
 .lav-nav-name{
 	color: white !important;
@@ -64,8 +65,8 @@ table {
 	-webkit-text-fill-color: rgb(0, 0, 0);
 	-webkit-text-stroke: .5px rgb(60, 145, 224);
 	text-align: center;
-	margin-top: 35px;
-	font-size: 35px;
+	margin-top: 40px;
+	font-size: 38px;
 }
 
 
@@ -614,7 +615,7 @@ margin-left: 20px;
   
 	@media only screen and (max-width: 770px) {
 		.sup-nav{
-			margin-top: 100px;
+			margin-top: 25px;
 			font-size: 25px;
 		}
 		.me-auto{
@@ -622,6 +623,14 @@ margin-left: 20px;
 			background-size: cover;
 			background-position: center;
 			border-radius: 3%;
+			margin-top: -70px;
+			display: flex;
+			width: 45%;
+			flex-direction: column;
+		}
+		.me-auto a{
+			display: flex;
+			flex-direction: row;
 		}
 		.me-auto a:hover{
 			background-color: #acc0df;
@@ -696,7 +705,7 @@ margin-left: 20px;
 	}
 
 	.sup-nav{
-		margin-top: 40px;
+		margin-top: 25px;
 		font-size: 25px;
 	}
 
@@ -720,7 +729,7 @@ margin-left: 20px;
 	height: 200px;
 }
 .sup-nav{
-	margin-top: 130px;
+	margin-top: 85px;
 	font-size: 25px;
 }
 .horary-container{
@@ -743,6 +752,13 @@ margin-left: 20px;
 	  .timeLists{
 		font-size: 13px;
 	  }
+
+	  .img-delivery-container img{
+		
+		height: 230px;
+		
+		
+	}
   }
 
 
@@ -893,7 +909,7 @@ margin-left: 20px;
 	font-family: 'Fredoka One', cursive;
 	-webkit-text-fill-color: rgb(255, 0, 0);
 	-webkit-text-stroke: 1px rgb(255, 217, 0);
-	font-size: 30px;
+	font-size: 40px;
 } 
 
 .container a {
@@ -918,4 +934,26 @@ margin-left: 20px;
 		margin-top: 650px;
 		margin-bottom: 650px;
 	}
+	.p-services{
+		font-size: 20px !important;
+	}
+
 }
+
+.whatsapp {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	z-index:100;
+  }
+  
+  .whatsapp-icon {
+	margin-top:13px;
+  }
