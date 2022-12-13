@@ -11,6 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <NavSuport />
+        <div id="up" />
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/servicios" element={<Services />} />

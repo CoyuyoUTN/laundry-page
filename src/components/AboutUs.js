@@ -4,7 +4,7 @@ const AboutUs = () => {
       <div className="about-container-title">
         <h2>Sobre nosotros</h2>
       </div>
-      <p className="wow animate__animated animate__lightSpeedInRight">
+      <p className="wow animate__animated animate__zoomIn">
         "Somos una empresa con mas de 25 años de trayectoria ofreciendo
         servicios de excelencia para tu ropa. Combinamos la mejor tecnología, un
         lugar muy bien equipado y múltiples comodidades con un staff confiable y

@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import lavIcon from "../img/lavIconP.png";
 import { BsWhatsapp } from "react-icons/bs";
+import { IoIosArrowUp } from "react-icons/io";
 
 const NavSuport = () => {
   return (
@@ -25,6 +26,9 @@ const NavSuport = () => {
         rel="noreferrer"
       >
         <BsWhatsapp className="whatsapp-icon" />
+      </a>
+      <a href="#up" className="whatsapp-2">
+        <IoIosArrowUp className="whatsapp-icon" />
       </a>
     </Navbar>
   );
