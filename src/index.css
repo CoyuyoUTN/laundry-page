@@ -959,7 +959,7 @@ margin-left: 20px;
 	height:60px;
 	bottom:110px;
 	right:40px;
-	background-color:#000000;
+	background-color:#1a1818;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -973,9 +973,18 @@ margin-left: 20px;
 
   @media only screen and (max-width: 770px){
 	.whatsapp {
+		width: 45px;
+		height: 45px;
 		right:5px;
+		font-size: 30px;
 	}
 	.whatsapp-2{
+		width: 45px;
+		height: 45px;
 		right:5px;
+		font-size: 30px;
+	}
+	.whatsapp-icon{
+		padding-bottom: 10px;
 	}
   }
